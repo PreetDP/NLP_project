@@ -1,5 +1,7 @@
 # NLP_Project_Group_9
-Dataset is included in the folder(books). 
-Results contain the experimental results of accuracy and testing of the spell checker. 
-SpellChecker_NLP_Project - Main Code Notebook. Testatble Model is uploaded as well.
+A spell checker is a software tool which is designed to identify and correct any spelling errors in a text. Spell checkers can be paired with other programs, or can be independently distributed. Every spell checker uses a dictionary. In the dictionary each word from the text is looked up. It is recognized as error when a word is not in the dictionary. Basically the larger a spellchecker’s dictionary is, the higher the rate of error detection; otherwise, misspellings would go undetected. A spell checker then scans the dictionary for the word that most matches the erroneous word, in order to correct the mistake. Moreover, every spell checker involves two main phases. The two main phases of the spell checker are error detection and error correction. In this research, we have implemented a spell checker which takes sentence with incorrect spelling as input and provides output as same sentence but the errors being corrected. The dataset used
+in the proposed method is taken from Gutenberg’s project which is basically twenty popular books. The proposed method is based on Bidirectional Recurrent Neural Network(BRNN) which gives promising results. 
+--->Dataset is included in the folder(books). 
+--->Results contain the experimental results of accuracy and testing of the spell checker. 
+--->SpellChecker_NLP_Project - Main Code Notebook. Testatble Model is uploaded as well.
 
